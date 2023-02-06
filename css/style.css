@@ -46,3 +46,335 @@ nav #nav-menu #menu-monitor-right button{
     display: none;
 }
 
+
+#section-1 {
+    padding-top: 50px;
+}
+
+#section-1 .container-section {
+    padding: 25px 0 100px 0;
+    margin: 0 auto;
+    max-width: 576px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+#section-1 .container-section .card {
+    width: 90%;
+    background-color: #b5ddff;
+    border-radius: 30px;
+}
+
+#section-1 .container-section .card .card-text {
+    padding: 3em 2.5em;
+}
+
+.card .card-title {
+    font-size: 3em;
+    color: #0084fd;
+}
+
+.card p {
+    line-height: 1.6em;
+    font-size: 1.5em;
+    padding: 2em 0;
+}
+
+.card .card-text button {
+    padding: 0.5em 2.5em;
+    background-color: #0084fd;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1em;
+    color: white;
+}
+
+section .container-section .card #big-card-img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section .container-section .card #big-card-img img {
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+/* small card */
+.card.small {
+    text-align: center;
+    padding: 3em 2.5em;
+}
+
+.card.small .card-icon {
+    padding-top: 0.3em;
+    font-size: 10em;
+    color: #0084fd;
+}
+
+/* sezione 2 */
+#section-2 {
+    background-color: #9593e6;
+}
+
+.section-container {
+    max-width: 576px;
+    margin: 0 auto;
+}
+
+#section-2 .section-container {
+    padding: 3em 0;
+}
+
+.section-container #left img,
+.section-container #right img {
+    width: 100%;
+}
+
+.section-container #left div{
+    font-size: 4em;
+    color: white;
+    padding: 2em 0 0.8em 0;
+}
+
+.section-container #left p {
+    font-size: 1.5em;
+    padding-bottom: 2em;
+}
+
+.section-container #right {
+    border-radius: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+.section-container #right div {
+    font-size: 2.5em;
+    padding: 1em 0;
+}
+
+.section-container #right p {
+    font-size: 1.5em;
+}
+
+.section-container #right button {
+    margin: 1em 0;
+    font-size: 2em;
+    width: 2em;
+    height: 2em;
+    border: none;
+    border-radius: 50%;
+    background-color: #9593e6;
+}
+
+/* sezione 3 */
+
+#section-3 {
+    padding-top: 2em;
+    padding-bottom: 4em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+#title-3 {
+    font-size: 3em;
+    color: #9593e6;
+    padding: 0.5em 0;
+}
+
+#section-3 p {
+    padding-bottom: 2em;
+    font-size: 1.2em;
+}
+
+.card-3 {
+    background-color: #9593e6;
+    margin-bottom: 2em;
+    border-radius: 40px;
+    color: white;
+    padding: 2em 0 1em 0;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.card-3 .img-3 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.card-3 .img-3 img {
+    width: auto;
+    height: 100%;
+    margin-left: -90px;
+}
+
+.card-3 .text-3 {
+    padding: 1.5em 0;
+}
+
+.card-3 .text-3 div {
+    padding-top: 1em;
+}
+
+/* sezione 4 */
+
+#section-4 {
+    background-color: #9593e6;
+    padding-bottom: 5em;
+}
+
+#title-4 {
+    text-align: center;
+    font-size: 2.5em;
+    padding: 1.5em;
+    color: white;
+}
+
+#cards-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+#cards-flex .card-4 {
+    padding: 1.5em;
+    background-color: white;
+    color: #9593e6;
+    border-radius: 20px;
+}
+
+#cards-flex .card-4 .number {
+    font-size: 4em;
+    padding: 0.5em 0;
+}
+
+#cards-flex .card-4 .title-card-4 {
+    font-size: 1.8em;
+}
+
+#cards-flex .card-4 p {
+    font-size: 1.2em;
+    padding: 1em 0;
+    line-height: 1.8em;
+    color: black;
+}
+
+#cards-flex .card-4 button {
+    font-size: 1.2em;
+    padding: 0.5em 3em;
+    color: white;
+    background-color: #9593e6;
+    border: none;
+    border-radius: 20px;
+}
+
+/* sezione 5 */
+#section-5 {
+    padding: 3em 0 7em 0;
+}
+
+#text-5 #title-5 {
+    font-size: 3em;
+    color: #9593e6;
+    padding: 1em 0;
+}
+
+#text-5 p {
+    padding-bottom: 2em;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+
+#img-text-5 #img-5 {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+#img-text-5 #img-5 img {
+    height: 100%;
+    width: auto;
+    border-radius: 50%;
+}
+
+#img-text-5 #img-5 div {
+    position: absolute;
+    left: 210px;
+    top: 0;
+    font-size: 6em;
+    color: #9593e6;
+}
+
+#img-text-5 #text-image {
+    padding: 1em 0;
+    font-size: 2em;
+    line-height: 1.5em;
+    color: #9593e6;
+}
+
+#img-text-5 button {
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #9593e6;
+    border-radius: 20px;
+    color: white;
+}
+
+/* ultima sezione */
+#last-section {
+    background-color: #9593e6;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    padding: 5em;
+}
+
+#last-title {
+    font-size: 2em;
+    padding: 1em 0;
+}
+
+#yellow {
+    font-size: 3em;
+    color: #fdc15f;
+    padding-bottom: 0.8em;
+}
+
+#last-section button {
+    margin: 1.5em 0;
+    padding: 0.8em 3em;
+    font-size: 1em;
+    border: none;
+    border-radius: 20px;
+    color: #9593e6;
+    background-color: white;
+}
+
+#last-section div a {
+    color: white;
+}
+
+/* footer */
+footer {
+    background-color: #333333;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+footer p {
+    padding: 3em 0;
+}
+
+footer div a,
+footer a {
+    color: #9593e6;
+}
