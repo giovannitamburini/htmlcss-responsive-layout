@@ -1,0 +1,48 @@
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0084fd;
+}
+
+nav #logo img{
+    height: 2.5em;
+}
+
+nav #nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+/* phone-tablet */
+nav #nav-menu #menu-phone a{
+    font-size: 1.5em;
+    color: white;
+}
+
+/* monitor */
+nav #nav-menu #menu-monitor-left {
+    display: flex;
+    gap: 1em;
+    padding-right: 1em;
+    color: white;
+
+    /* media */
+    display: none;
+}
+
+nav #nav-menu #menu-monitor-right button{
+    padding: 0.5em 1em;
+    border: 1px solid white;
+    border-radius: 1.5em;
+    background-color: white;
+
+    /* media */
+    display: none;
+}
+
